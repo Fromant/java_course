@@ -11,7 +11,7 @@ public class FinalExample {
 
     // 2. Инициализировать в конструкторе
     public FinalExample(int value) {
-        a = value;
+//        a = value;
     }
 
     // 3. Инициализировать в нестатическом логическом блоке
@@ -19,9 +19,4 @@ public class FinalExample {
     {
         a = 777;
     }
-}
-
-
-
-
 }

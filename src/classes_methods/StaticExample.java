@@ -1,7 +1,7 @@
 package classes_methods;
 
 //класс из ТЗ
-class A {
+class staticClass {
     public static int a = 1;
     public static int b;
 
@@ -13,9 +13,9 @@ class A {
 
 public class StaticExample {
     public static void main(String[] args) {
-        A.printVars(); // Вызов через имя класса
+        staticClass.printVars(); // Вызов через имя класса
 
-        A obj = new A();
+        staticClass obj = new staticClass();
         obj.printVars(); // Вызов через ссылку на экземпляр класса (не рекомендуется)
     }
 }
