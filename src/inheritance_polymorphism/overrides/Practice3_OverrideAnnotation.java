@@ -13,10 +13,10 @@ class Car extends Vehicle {
     // Без @Override компилятор не заметил бы, что это НЕ переопределение,
     // а новый метод. С @Override — ошибка компиляции.
 
-    @Override
-    public void startEngin() { // ОПЕЧАТКА: пропущена буква 'e' в конце
-        System.out.println("Двигатель автомобиля запущен");
-    }
+//    @Override
+//    public void startEngin() { // ОПЕЧАТКА: пропущена буква 'e' в конце
+//        System.out.println("Двигатель автомобиля запущен");
+//    }
 
     // Compile error:
     // "Method does not override method from its superclass"
