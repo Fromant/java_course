@@ -8,8 +8,6 @@
 
 [Раскодированный файл](files/10_eq_sym.txt.huff.txt) - files/10_eq_sym.txt.huff.txt
 
-### Прогнать все тесты (windown) `./src/`
-
 # Использование: 
 1. Кодирование: `java Huffman -c [input] [output]`
 2. Декодирование: `java Huffman -d [input] [output]`
